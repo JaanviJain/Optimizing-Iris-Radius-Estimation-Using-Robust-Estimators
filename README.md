@@ -1,4 +1,5 @@
-Iris Recognition System Optimization using Robust Radius Estimation
+# Iris Recognition System Optimization using Robust Radius Estimation
+
 
 This Project focuses on enhancing the accuracy and robustness of iris recognition systems based on the Daugman Rubber Sheet Model, which normalizes the iris texture into a rectangular strip. A major challenge in this process is the unstable estimation of the outer iris radius, often caused by non-circular iris boundaries and image noise. Conventional approaches, which calculate the mean radius across limited angular samples, are highly sensitive to outliers. This leads to inconsistencies in the estimated radius of the same iris across different captures, ultimately degrading recognition performance.
 
