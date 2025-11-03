@@ -1,4 +1,4 @@
-Iris Recognition System Optimization using Robust Radius Estimation
+#Iris Recognition System Optimization using Robust Radius Estimation
 
 This Project focuses on enhancing the accuracy and robustness of iris recognition systems based on the Daugman Rubber Sheet Model, which normalizes the iris texture into a rectangular strip. A major challenge in this process is the unstable estimation of the outer iris radius, often caused by non-circular iris boundaries and image noise. Conventional approaches, which calculate the mean radius across limited angular samples, are highly sensitive to outliers. This leads to inconsistencies in the estimated radius of the same iris across different captures, ultimately degrading recognition performance.
 
@@ -9,5 +9,4 @@ The findings show that the optimal estimator depends on the sampling density and
 Increasing the angular sampling from 6 to 8 angles consistently improved stability and enhanced image quality, with entropy and contrast increasing by approximately 20%. The study concludes that the 8-angle sampling with the Midmean estimator offers the best general-purpose configuration, effectively optimizing the iris normalization process and improving subsequent feature extraction and matching accuracy.
 
 
-# Optimizing-Iris-Radius-Estimation-Using-Robust-Estimators
 Optimized iris recognition using robust estimators (Mean, Trimmed Mean, Huber, Midmean) and varied angular sampling (6 &amp; 8 angles). Midmean at 8 angles gave best stability, 20% quality gain. Huber handled outliers best. Improves iris normalization and recognition accuracy.
